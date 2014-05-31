@@ -1,7 +1,18 @@
-$body-bg:	#ecf0f1;
-$jumbotron-bg:	#bdc3c7;
-$navbar-default-bg: #bdc3c7;
-$navbar-default-link-color: white;	
-$jumbotron-border: white;
+@import url(http://fonts.googleapis.com/css?family=Quicksand:700);
+
+$body-bg:	#e74c3c;
+$jumbotron-bg:	#ecf0f1;
+$navbar-default-bg: #ecf0f1;
+$navbar-default-link-color: #e74c3c;
+$font-family-sans-serif: 'Quicksand';	
+
 
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+	}
+p {
+	text-align: justify;
+	padding-top: 50px;
+}
